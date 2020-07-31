@@ -1,0 +1,8 @@
+Install IdentityServer4 with ASP.NET Core Identity (is4aspid)
+Install EFCore
+Install EFCore.Design
+Install EFCore.SQLServer
+Install IdentityServer4
+Install IdentityServer4.EF
+Install IdentityServer4.AspNetIdentity
+Install Microsoft.CodeAnalysis 

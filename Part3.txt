@@ -1,0 +1,14 @@
+Part3
+EF Migration
+
+add-migration initial -c ApplicationDbContext -o Data/Migrations/AspNetIdentity/ApplicationDb
+
+add-migration initial2 -c ConfigurationDbContext -o Data/Migrations/AspNetIdentity/ConfigurationDb
+
+add-migration initial2 -c PersistedGrantDbContext -o Data/Migrations/AspNetIdentity/PersistedGrantDb
+
+update-database -c ApplicationDbContext
+
+update-database -c ConfigurationDbContext
+
+update-database -c PersistedGrantDbContext

@@ -1,0 +1,3 @@
+Configuring Identity Server 4 Host project (Start class > ConfigureServices method).
+	- Setup database
+	- Delete migration folder before part 3
